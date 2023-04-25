@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/siguiente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:hint="GESTIONAR MASCOTAS "
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+    <EditText
+        android:hint="ID(campo identity no ingresar)"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="21.5dp"
+        android:layout_marginTop="30dip"
+        android:background="#eff"
+        android:id="@+id/txtIdPes"
+        android:layout_marginBottom="0.0dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombrePes"
+        android:background="#eff"
+        android:layout_marginTop="30dip"
+        android:hint="NOMBRE DE LA MASCOTA"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCedulaDueño"
+       android:background="#eff"
+        android:layout_marginTop="30dip"
+       android:hint="CEDULA DEL DUEÑO"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdadPes"
+        android:background="#eff"
+        android:layout_marginTop="30dip"
+        android:hint="EDAD DE LA MASCOTA"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtEspeciePes"
+      android:background="#eff"
+        android:layout_marginTop="30dip"
+      android:hint="ESPECIE"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtRazaPes"
+      android:background="#eff"
+        android:layout_marginTop="30dip"
+      android:hint="RAZA"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCaracteristicasPes"
+      android:background="#eff"
+        android:layout_marginTop="30dip"
+      android:hint="CARACTERISTICAS DEL PERRO"
+      android:gravity="center" />
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtPesoPes"
+      android:background="#eff"
+        android:layout_marginTop="30dip"
+      android:hint="PESO"
+      android:gravity="center" />
+
+    <Button
+       android:text="REGISTRAR"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/colorPrimary"
+       android:layout_marginTop="30dip"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+
+    <Button
+       android:text="CONSULTAR"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/colorPrimary"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnConsultarPes" />
+    <Button
+       android:text="IR AL INICIO"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/colorPrimary"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+     android:background="#eed"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <Toolbar
+        android:title="MENÚ"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarMenu"
+        android:layout_marginBottom="34.0dp" />
+
+
+     <ImageView
+        android:src="@drawable/perros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+
+    <ImageView
+        android:src="@drawable/juancho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView277" />
+
+     <TextView
+        android:text="MISIÓN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dip"
+        android:id="@+id/textView1" />
+     <TextView
+        android:text="Brindar Cariniño y amor a sus hijos peluditos"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+     <TextView
+        android:text="VISÓN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Ser los numero uno a nivel mundial para el 2025"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"/>
+   
+</LinearLayout>

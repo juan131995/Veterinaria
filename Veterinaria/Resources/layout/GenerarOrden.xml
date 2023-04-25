@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondito"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="GENERAR ORDEN MEDICA "
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+    <ImageView
+        android:src="@drawable/orden"
+        android:layout_width="match_parent"
+        android:layout_height="125.5dp"
+        android:id="@+id/imageView1" />
+
+       <EditText
+        android:hint="ID(deber ser unica )"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="#eff"
+         android:layout_marginTop="30dip"
+        android:id="@+id/txtIdOrden"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdMascota"
+        android:background="#eff"
+        android:layout_marginTop="30dip"
+        android:hint="ID MASCOTA"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCedulaDueño"
+       android:background="#eff"
+       android:layout_marginTop="30dip"
+       android:hint="CEDULA DEL DUEÑO"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCedulaVeterinario"
+        android:background="#eff"
+        android:layout_marginTop="30dip"
+        android:hint="CEDULA VETERINARIO QUE ORDENA"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#eff"
+      android:layout_marginTop="30dip"
+      android:id="@+id/txtCeduVeterinario"
+      android:hint="NOMBRE DEL MEDICAMENTO"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="datetime"
+      android:background="#eff"
+      android:layout_marginTop="30dip"
+      android:id="@+id/txtFecha"
+      android:hint="FECHA EN QUE SE GENERA LA HISTORIA CLINICA"
+      android:gravity="center"/>
+
+    <Button
+       android:text="GENERAR ORDEN"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dip"
+       android:backgroundTint="@color/colorPrimary"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+    <Button
+       android:text="IR AL INICIO"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/colorPrimary"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+       
+</LinearLayout>
